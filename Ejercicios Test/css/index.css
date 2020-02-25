@@ -1,0 +1,230 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(231,227,228);
+	font-family: serif;
+}
+header {
+	font-family: 'Rubik';
+	color: #fff;
+}
+header  a {
+	color: #fff;
+	text-decoration: none;
+}
+.logomenu {
+	background: #24252A;
+}
+.logomenu .logo{
+	padding-top: 15px;
+}
+.boton{
+	
+	padding: 9px 25px;
+	background-color: rgba(0,136,168,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+
+	transition: all 0.3s ease 0s;
+	
+}
+.boton:hover{
+	background-color: #A09D9D;
+}
+.container-fluid{
+	padding: 0px 50px 0px 50px;
+}
+.logomenu h2{
+	font-family: 'Monoton';
+	font-size: 60px;
+}
+.logomenu .menu a{
+	
+	text-decoration: none;
+	display: inline-block;
+	padding: 40px 20px;
+	transition: all 0.3s ease 0s;
+}
+
+.logomenu .menu a:hover{
+	color: #0088a9;
+	text-decoration: none;
+	border-bottom: 4px solid #FA8B8B;
+	padding: 36px;
+}
+.submenu{
+	background: #D1C5C7;
+}
+.submenu nav a{
+	padding: 15px 13px;
+	text-decoration: none;
+	display: inline-block;
+}
+.submenu nav a:hover{
+	color: #0088a9;
+	border-bottom: 4px solid #FA8B8B;
+	padding: 11px;
+}
+.parallax {
+	background-image: url("../img/img1.jpg");
+	min-height: 83vh;
+	position: relative;
+	opacity: .75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.heading{
+	font-family: 'Rubik';
+	position: absolute;
+	color: #000;
+	width: 100%;
+	top:38%;
+	text-align:center;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	text-shadow: 0 0 10px #000;
+}
+.heading h1{
+	font-family: 'Monoton';
+	font-size: 700%;
+}
+
+.div1{
+	margin: 0px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 3px solid grey;
+}
+.div2{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 50px 0px;
+	border-bottom: 3px solid grey;
+}
+.div2{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 50px 0px;
+	
+}
+.div3{
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 50px 0px;
+	
+}
+.Testimonials{
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+.svg1{
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.carrusell {
+	height: 100%;
+	width: 100%;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 20	px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 1px;
+  border-radius: 55%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+
+
+
+
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+
+footer{
+	background: #24252A;
+	color: #fff;
+	padding: 0;
+
+}
+footer .nav a{
+	width: 100%;
+	display: block;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,.2);
+}
+footer .nav a:hover{
+	text-decoration: underline;
+}
+.logomenu2 h2{
+	font-family: 'Monoton';
+	font-size: 60px;
+}
+.logomenu2 .nav a{
+	
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 0 0 0;
+	transition: all 0.3s ease 0s;
+}
+
+.logomenu2 .nav a:hover{
+	color: #0088a9;
+	text-decoration: none;
+	border-bottom: 4px  solid #FA8B8B;
+	
+}
