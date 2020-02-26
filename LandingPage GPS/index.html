@@ -187,16 +187,52 @@
 		</div>	
 	</div>
 
-	<div class="container ">
-		<div class="row div2">
-			<div class="col-xs-12 middle-xs center-xs">
-				<h1>ABOUT US</h1>
-				<p class="text-justify">
-					Konīr issi naenie ways naejot gaomagon these ra.  Pink clouds floated jtith se breeze. Both ojūdan pōja lives isse se raging jelmāzma.  Iderēbagon rȳ se eglie geralbar se se low. Ziry ñepeton se torn coat olvie neatly.  Se tymagon vestragon ruaka se olvie doru-borto. Se tistālion iksin jammed gō se liorilaksa could rhaenagon.  Se hog tȳdan gō se eglie dōros. Mēre dekuragon tolī se se board kessa collapse.  Se lobes hen zirȳla ears sia pierced naejot ōregon rings. Dohaeragon se bāne rum naejot se ēdrugī heroes.  Iā stuffed chair slipped hen se moving van. Se beach iksis tista se shallow rȳ low elēnar.  Iā cup hen sugar mazverdagon dōna fudge. Rāenagon se grease hen zȳhon vaogenka laehurlion.  Slide se ūndegon arlī se open se desk. Soap kostagon rāenābagon olvie dirt qrīdrughagon.  Se pipe dakōtan bē se length hen ditch. Dohaeragon se ābra jiōragon arlī naejot zirȳla dekossa.  Glass kessa clink skori pryjatan ondoso metal.
-				</p>
-				<p class="p2">Ȳrda curls jiōragon limp va rainy tubissa.  Iā ūndan iksis iā tool gaomagon syt verdagon boards. Heave se qogron toliot se port paktot.  Torn scraps littered se dōron floor. Either mud iā jeson issi found rȳ mirre jēdi.  Glass kessa clink skori pryjatan ondoso metal. Sepār hoist ziry bē se gūrogon ziry qrīdrughagon, se elēni tymptan va while pōnta ȳdragotan.</p>
+
+
+	<div class="container div4 " id="contenedor1" >
+		<div class="row  center-xs middle-xs" style="padding-bottom: 30px;">
+				<div class="col-xs-12 ">
+					<h1>Conoce el Clima de una Ciudad:</h1>
+				</div>
+				<div class="col-xs-12  center-xs">
+					<div class="row">
+							<input id="ciudad" value="Posadas" type="text" class="form-control col-12 col-md-4 offset-md-3" style="margin-right: 30px;"  >
+							<button type="button" class="btn btn-primary col-12 col-md-2  btn-lg" id="boton">Submit</button>
+					</div>
+				</div>
+
+		</div>
+		<div class="row " id="rowclima" style="margin-top:50px;">
+			<div class="col-12 col-sm-2 offset-sm-2 middle-xs center-xs" id="clima">
+				
+			</div>
+			<div class="col-12 col-sm-3 offset-sm-2 middle-xs center-xs" id="columnaclima">
+				<table class=" table table-hover " style="background-color: #A6A4A4; border-radius: 10px; ">
+					<tbody>
+					    <tr>
+					      <th scope="row">Ciudad</th>
+					      <td id="citi"></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">Latitud</th>
+					      <td id="latitud"></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">Longitud</th>
+					      <td id="longitud"></td>
+					    </tr>
+					     <tr>
+					      <th scope="row">Temp. MAX</th>
+					      <td id="tempmax"></td>
+					    </tr>
+					     <tr>
+					      <th scope="row">Temp. MIN</th>
+					      <td id="tempmin"></td>
+					    </tr>
+					</tbody>
+				</table>
 			</div>	
-		</div>	
+		</div>		
 	</div>
 
 	<div class="container">
@@ -236,7 +272,7 @@
 
 	                        <div class="form-group ">
 	                            <div class="col-sm-2 offset-sm-9 text-center ">
-	                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+	                                <button type="button" class="btn btn-primary btn-lg" >Submit</button>
 	                            </div>
 	                        </div>
 	                    </fieldset>
@@ -304,9 +340,12 @@
 		
 	</footer>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+	<script src="js/index.js"></script>
 
 </body>
 </html>
